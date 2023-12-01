@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #d7c4c4;
+    align-items: center;
+
+    color: white;
+    rgb(183, 21, 21,.7);
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li  a{
+    text-decoration: none;
+    color: rgb(21, 26, 24);
+    font-weight: 800;
+    
+}
+.navbar ul li
+{
+    list-style: none;
+}
+.navbar ul li{
+    padding-left: 15px;
+    margin-left: 30px;
+}
+.logo {
+    width: 40%;
+}
+.heading{
+    background: url(./images/pexels-veeterzy-303383.jpg);
+    height: 450px;
+   
+}
+.heading button{
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    background-color: red;
+} 
+.check{
+    margin-left: 50px;
+    padding-top: 50px;
+    color: white;
+    line-height: 50px;
+}
+.logo {
+    padding-left: 50px;
+}
+.dabba1 , .dabba2 , .dabba3{
+    width: 26%;
+    background-color: rgb(91, 36, 36);
+    border-radius: 10px;
+    height: 170px;
+    color: white;
+    text-align: center;
+
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: -100px;
+
+}
+.rh{
+    position: relative;
+    background-color: rgb(31, 31, 31);
+
+}
+
+.rn{
+    padding-top: 200px;
+}
+.category{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 230px;
+    width: 30%;
+    margin-left: 20px;
+    justify-content: center;
+
+}
+.category button{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    margin: 30px;
+    height: 40px;
+}
+.category ul li{
+    list-style: none;
+}
+.cat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text p{
+    font-size: 12px;
+}
+.lay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.new1 img{
+    border-radius: 10px;
+}
+.pp{
+    width: 70%;
+    justify-content: space-between;
+}
+.meeting{
+    padding-left: 530px;
+    color: white;
+    padding-bottom: 30px;
+}
+.aa{
+    background-color: rgb(104, 103, 100);
+}
+.ht{
+    background: rgba(0,0,0,0.272) , url(./images/background.jpg)no-repeat center center/cover;
+    opacity: 0.5;
+    height: 500px;
+    
+    
+}
+.deg{
+    width: 50%;
+}
+.app{
+    background-color: #d7c4c4;
+}
+.app button{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ll{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.about p{
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+.lorem{
+    padding-top: 30px;
+
+}
+.about h2{
+    color: goldenrod;
+}
+.about{
+    background-color: white;
+}
+.cou{
+    background-color: rgb(75, 72, 72);
+}
+.cs{
+    display: flex;
+    flex-direction: column;
+}
+.cs a{
+    text-decoration: none;
+    color: black;
+}
+.mn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+.arj{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.arj a{
+    margin-top: 70px;
+
+}
+.st {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.st p{
+    color: maroon;
+}
+.price p{
+    color: gold;
+}
+.popular{
+    padding-left: 50px;
+    color: white;
+}
+.uni h1{
+    padding-left: 50px;
+    font-size: 32px;
+    padding-right: 250px;
+    color: white;
+}
+.uni {
+    width: 50%;
+    color: white;
+    position: relative;
+}
+.cv{
+    background-color: black;
+    height: 500px;
+}
+.stu {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    border: 3px solid wheat;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.stu2 {
+    position: absolute;
+    left: 200px;
+    top: 290px;
+    border: 3px solid wheat;
+    border-radius: 10px;
+    padding: 22px;
+
+}
+.stu3 {
+    position: absolute;
+    left: 500px;
+    top: 170px;
+    border: 3px solid wheat;
+    border-radius: 10px;
+    padding: 22px;
+
+}
+.stu4 {
+    position: absolute;
+    left: 500px;
+    top: 320px;
+    border: 3px solid wheat;
+    border-radius: 10px;
+    padding: 42px;
+
+}
+.draw{
+    color: white;
+    margin-top: 150px;
+}
+.cv{
+    display: flex;
+    flex-direction: row;
+}
+
+.in{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+}
+.ww{
+    width: 300px;
+    height: 140px;
+    margin-top: 20px;
+}
+.touch{
+    display: flex;
+    flex-direction: row;
+}
+.submit button{
+    color: white;
+    border-radius: 10px;
+    background-color: maroon;
+    padding: 10px;
+    margin-top: 20px;
+}
+.frs {
+    width: 70%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.po{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(94, 86, 86);
+}
+.asd{
+    background-color: maroon;
+    border-radius: 20px;
+    width: 230px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    margin-left: 50px;
+}
